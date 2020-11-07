@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Primer Sitio DWY4101-002V">
+    <meta name="author" content="Esteban Dido">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="html, etiquetas semanticas">
+    <link rel="icon" href="img/icons.png" type="images/png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- CSS propios-->
+    <link rel="stylesheet" href="css/mystyles.css">
+
+    <title>Manejo de Tablas</title>
+</head>
+<body>
+    <!-- Contenedor NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand " href="index.html">
+            <img src="img/icons.png" alt="LOGO" >
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tablas.html">TABLAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="graficos.html">GRAFICOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript.html">JAVASCRIPT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tabla_dinamica.html">TABLA DINAMICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario_validado.html">FORMULARIO VALIDADO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownnabvar" data-toggle="dropdown">Sitios Interes</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="http://www.google.cl">Google</a>
+                        <a class="dropdown-item" href="http://espndeportes.com">ESPN</a>
+                        <a class="dropdown-item" href="http://www.sii.cl">SII</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fin Contenedor NAVBAR -->
+
+    <!-- Inicio Sección MAIN --> 
+    <main class="container">
+        <h3 class="display-4">Manejo de Tablas</h3>
+        <div class="row mt-4">
+            <div class="table-responsive">   
+                <h5 class="display-5">Tabla Normal</h5>             
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>NOMBRE</th>
+                            <th>APELLIDO</th>
+                            <th>EMAIL</th>
+                            <th>PAIS</th>
+                            <th>ESTADO CIVIL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Esteban</td>
+                            <td>Dido</td>
+                            <td>e.dido@correo.com</td>
+                            <td>Chile</td>
+                            <td>Soltero</td>
+                        </tr>
+                        <tr>
+                            <td>Cindy</td>
+                            <td>Nero</td>
+                            <td>cindy.nero@miempresa.com</td>
+                            <td>Chile</td>
+                            <td>Soltera</td>
+                        </tr>
+                        <tr>
+                            <td>Armando</td>
+                            <td>Casas</td>
+                            <td>arm.casas@demadera.com</td>
+                            <td>Argentino</td>
+                            <td>Casado</td>
+                        </tr>
+                        <tr>
+                            <td>Elva</td>
+                            <td>Calao</td>
+                            <td>elva.calao@correo.com</td>
+                            <td>Perú</td>
+                            <td>Divorciada</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">            
+            <div class="table-responsive"> 
+                <h5 class="display-5">Tabla Con Bordes</h5>               
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>NOMBRE</th>
+                            <th>APELLIDO</th>
+                            <th>EMAIL</th>
+                            <th>PAIS</th>
+                            <th>ESTADO CIVIL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Esteban</td>
+                            <td>Dido</td>
+                            <td>e.dido@correo.com</td>
+                            <td>Chile</td>
+                            <td>Soltero</td>
+                        </tr>
+                        <tr>
+                            <td>Cindy</td>
+                            <td>Nero</td>
+                            <td>cindy.nero@miempresa.com</td>
+                            <td>Chile</td>
+                            <td>Soltera</td>
+                        </tr>
+                        <tr>
+                            <td>Armando</td>
+                            <td>Casas</td>
+                            <td>arm.casas@demadera.com</td>
+                            <td>Argentino</td>
+                            <td>Casado</td>
+                        </tr>
+                        <tr>
+                            <td>Elva</td>
+                            <td>Calao</td>
+                            <td>elva.calao@correo.com</td>
+                            <td>Perú</td>
+                            <td>Divorciada</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">            
+            <div class="table-responsive">     
+                <h5 class="display-5">Tabla Sin Bordes y con HOVER</h5>           
+                <table class="table table-dark table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>NOMBRE</th>
+                            <th>APELLIDO</th>
+                            <th>EMAIL</th>
+                            <th>PAIS</th>
+                            <th>ESTADO CIVIL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Esteban</td>
+                            <td>Dido</td>
+                            <td>e.dido@correo.com</td>
+                            <td>Chile</td>
+                            <td>Soltero</td>
+                        </tr>
+                        <tr>
+                            <td>Cindy</td>
+                            <td>Nero</td>
+                            <td>cindy.nero@miempresa.com</td>
+                            <td>Chile</td>
+                            <td>Soltera</td>
+                        </tr>
+                        <tr>
+                            <td>Armando</td>
+                            <td>Casas</td>
+                            <td>arm.casas@demadera.com</td>
+                            <td>Argentino</td>
+                            <td>Casado</td>
+                        </tr>
+                        <tr>
+                            <td>Elva</td>
+                            <td>Calao</td>
+                            <td>elva.calao@correo.com</td>
+                            <td>Perú</td>
+                            <td>Divorciada</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>        
+    </main>
+    <!-- FIN Sección MAIN --> 
+
+    <!-- Inicio Sección FOOTER -->    
+    <footer class="footer mt-4">
+        <div class="container-fluid text-center text-md-left ">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Título Footer</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus ab, voluptate corporis, cupiditate dicta mollitia inventore a rem commodi quo minima sed earum doloremque perspiciatis atque, qui veniam quasi obcaecati!</p>
+                </div>
+                <div class="col-md-9">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tablas.html">Tablas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FIN Sección FOOTER -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

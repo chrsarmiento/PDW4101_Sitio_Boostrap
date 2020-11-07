@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Primer Sitio DWY4101-002V">
+    <meta name="author" content="Esteban Dido">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="html, etiquetas semanticas">
+    <link rel="icon" href="img/icons.png" type="images/png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- CSS propios-->
+    <link rel="stylesheet" href="css/mystyles.css">
+
+    <title>BASE</title>
+</head>
+<body>
+    <!-- Contenedor NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand " href="index.html">
+            <img src="img/icons.png" alt="LOGO" >
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tablas.html">TABLAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="graficos.html">GRAFICOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript.html">JAVASCRIPT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tabla_dinamica.html">TABLA DINAMICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulario_validado.html">FORMULARIO VALIDADO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownnabvar" data-toggle="dropdown">Sitios Interes</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="http://www.google.cl">Google</a>
+                        <a class="dropdown-item" href="http://espndeportes.com">ESPN</a>
+                        <a class="dropdown-item" href="http://www.sii.cl">SII</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fin Contenedor NAVBAR -->
+
+    <!-- Inicio Sección MAIN -->    
+    <main class="container mt-2 mb-2">
+        <!-- Contenedor CAROUSEL -->
+        <div class="row">
+            <div class="carousel slide" data-ride="carousel" id="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                    <li data-target="#carousel" data-slide-to="4"></li>
+                    <li data-target="#carousel" data-slide-to="5"></li>
+                </ul>   
+
+                <!-- SlideShow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/001-1200x500.jpg" alt="Partes HDD" width="100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/002-1200x500.jpg" alt="Bosque en otoño" width="1200" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/003-1200x500.jpg" alt="Galpón bajo las estrellas" width="1200" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/004-1200x500.jpg" alt="Puente" width="1200" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/005-1200x500.jpg" alt="Alce o venado" width="1200" height="500">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/006-1200x500.jpg" alt="Cascada en primavera" width="1200" height="500">
+                    </div>
+                </div>
+
+                <!-- Controles -->
+                <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        <!-- Fin contenedor CAROUSEL -->
+
+        <!-- Contenedor Contenido usando grilla -->
+        <div class="container mt-4 mb-4">
+            <h3 class="display-3">Manejo de contenidos usando la Grilla de Bootstrap</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="http://picsum.photos/500/500" alt="Imagen">
+                    <h5>Artículo 1</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quas veniam, vero sapiente suscipit voluptas? Reiciendis itaque laboriosam hic? Quasi?</p>
+                    <a class="btn btn-primary" href="#">Ver detalles</a>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="http://picsum.photos/500/500" alt="Imagen">
+                    <h5>Artículo 2</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quas veniam, vero sapiente suscipit voluptas? Reiciendis itaque laboriosam hic? Quasi?</p>
+                    <a href="#">Ver detalles</a>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="http://picsum.photos/500/500" alt="Imagen">
+                    <h5>Artículo 3</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quas veniam, vero sapiente suscipit voluptas? Reiciendis itaque laboriosam hic? Quasi?</p>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Contenedor Contenido usando grilla -->
+
+        <!-- Contenedor Contenido usando CARDS -->
+        <div class="container mt-4 mb-4">
+            <h3 class="display-3">Manejo de contenidos usando CARDS</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <img class="img-fluid" src="http://picsum.photos/500/500" alt="Imagen">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Artículo 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quas veniam, vero sapiente suscipit voluptas? Reiciendis itaque laboriosam hic? Quasi?</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-primary" href="#">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="http://picsum.photos/500/500" alt="Imagen">
+                        <div class="card-body">
+                            <h5 class="card-title">Artículo 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quas veniam, vero sapiente suscipit voluptas? Reiciendis itaque laboriosam hic? Quasi?</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-primary" href="#">Ver detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Artículo 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quas veniam, vero sapiente suscipit voluptas? Reiciendis itaque laboriosam hic? Quasi?</p>
+                        </div>
+                        <img class="img-fluid" src="http://picsum.photos/500/500" alt="Imagen">
+                        <div class="card-footer">
+                            <div class="btn-group">
+                                <a class="btn btn-primary" href="#">Ver detalles</a>
+                                <a class="btn btn-primary" href="#">Agregar al carrito</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width:100%">
+                        <img src="img/003-1200x500.jpg" alt="Galpón">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title text-white">Contenido usando Overlay</h4>
+                            <h6 class="card-subtitle text-white text-muted">Escrito por José</h6>
+                            <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate reiciendis nulla soluta asperiores deleniti rerum doloribus delectus officia laudantium aperiam quaerat totam eveniet, aspernatur vel non dolorem modi quidem velit?</p>
+                            <a class="card-link text-white" href="#">Continuar leyendo...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="img/003-1200x500.jpg" alt="Galpón">
+                        <div class="text-center">
+                            <img class="img-fluid rounded-circle" src="http://picsum.photos/100/100" alt="" width="100px" height="100%" style="margin-top: -50px; border:3px solid white;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">About me...</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam tempora beatae. Harum modi ullam cum cumque, doloremque rerum cupiditate!</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="img/003-1200x500.jpg" alt="Galpón">
+                        <div class="text-center">
+                            <img class="img-fluid rounded-circle" src="http://picsum.photos/100/100" alt="" width="100px" height="100%" style="margin-top: -50px; border:3px solid white;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">About me...</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam tempora beatae. Harum modi ullam cum cumque, doloremque rerum cupiditate!</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="img/003-1200x500.jpg" alt="Galpón">
+                        <div class="text-center">
+                            <img class="img-fluid rounded-circle" src="http://picsum.photos/100/100" alt="" width="100px" height="100%" style="margin-top: -50px; border:3px solid white;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">About me...</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam tempora beatae. Harum modi ullam cum cumque, doloremque rerum cupiditate!</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>    
+        <!-- Fin Contenedor Contenido usando -->
+
+    </main>
+    <!-- Fin Contenedor MAIN -->
+
+    <!-- Inicio Sección FOOTER -->    
+    <footer class="footer">
+        <div class="container-fluid text-center text-md-left ">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Título Footer</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus ab, voluptate corporis, cupiditate dicta mollitia inventore a rem commodi quo minima sed earum doloremque perspiciatis atque, qui veniam quasi obcaecati!</p>
+                </div>
+                <div class="col-md-9">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tablas.html">Manejo de Tablas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="graficos.html">Elementos Gráficos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FIN Sección FOOTER -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
